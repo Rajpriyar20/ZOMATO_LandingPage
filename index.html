@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>ZOMATO</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <img src="\assets\logo.png" alt="logo" class="navbar_brand_logo" />
+            </div>
+            <div class="navbar_nav_items">
+                <div class="nav_item">
+                    <button class="button_icon">Order Food</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="main_container">
+            <div class="main_image_container">
+                <img src="\assets\hero.jpg" alt="main image" class="main_image" />
+                <img src="\assets\svg\heroShape.svg" alt="shape image" class="shape_image" />
+                <img src="\assets\svg\herobgpattren.svg" alt="pattern image" class="pattern_image" />
+            </div>
+            <div class="container_desc">
+                <h1 class="main_text">Order from the best restaurants, cafes and bars near you</h1>
+                <button class="button_icon">Order now</button>
+            </div>
+        </section>
+
+        <section class="video_container">
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/329127852?color=f7f7f7&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="video_player">
+            </iframe>
+            </div>
+            <div class="video_content">
+                <p>Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene</p>
+            </div>
+        </section>
+
+        <section class="food_list_container">
+            <h1 class="food_list_header" style="text-align:center; font-size:2.5rem;">Explore Menu</h1>
+            <div class="food_menu_list">
+                <div class="food_list_container_bg"></div>
+                <div class="food_menu_card">
+                    <img src="/assets/burger.jpg" alt="burger_image" class="food_menu_image">
+                    <div style="padding:1rem;">
+                        <h4 class="food_menu_title">Burgers</h4>
+                        <p class="food_menu_restaurants">Burger King, McDonalds, Burger Place <span style="color:red;">+4</span></p>
+                    </div>
+                </div>
+
+                <div class="food_menu_card card_move_top">
+                    <img src="/assets/pizza.jpg" alt="burger_image" class="food_menu_image">
+                    <div style="padding:1rem;">
+                        <h4 class="food_menu_title">Pizza</h4>
+                        <p class="food_menu_restaurants">Burger King, McDonalds, Burger Place <span style="color:red;">+4</span></p>
+                    </div>
+                </div>
+
+                <div class="food_menu_card">
+                    <img src="/assets/icecream.jpg" alt="burger_image" class="food_menu_image">
+                    <div style="padding:1rem;">
+                        <h4 class="food_menu_title">IceCream</h4>
+                        <p class="food_menu_restaurants">Burger King, McDonalds, Burger Place <span style="color:red;">+4</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="restaurants_list_container">
+            <div class="restaurants_list_title">
+                <h1 class="text">Order from hundreds of Restaurants</h1>
+            </div>
+
+            <div class="restaurant_image_container">
+                <div class="restaurant_image_row_1">
+                    <img src="/assets/restaurant1.jpg" alt="an image" class="res1">
+                    <img src="/assets/restaurant2.jpg" alt="an image" class="res2">
+                </div>
+
+                <div class="restaurant_image_row_2">
+                    <img src="/assets/restaurant3.jpg" alt="an image" class="res3">
+                    <img src="/assets/restaurant4.jpg" alt="an image" class="res4">
+                </div>
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="form_container">
+                <h1 class="text1">
+                    Stay Updated
+                </h1>
+            </div>
+            <div>
+                <form class="form_container_attributes">
+                    <input type="text" class="email" size="50" placeholder="email@gmail.com">
+                    <input type="button" class="button_icon" value="Get Updated">
+                </form>
+            </div>
+        </section>
+
+        <section class="quote_container">
+            <div class="image_quote_container">
+                <h3 class="centered">When a man's stomach is full it makes no difference whether he is rich or poor.</h3>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
